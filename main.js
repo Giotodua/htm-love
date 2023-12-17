@@ -4,6 +4,8 @@ const inputTwoValue = document.getElementById('inputTwo');
 const btnCalculateValue = document.getElementById('btn-calculate');
 const resultDiv = document.getElementById('result-div');
 var contactCollection = [];
+
+
 btnCalculateValue.addEventListener("click", () => {
     let percentage;
     
@@ -19,8 +21,9 @@ btnCalculateValue.addEventListener("click", () => {
             resultDiv.innerHTML = "";
             clearInputs()
          }, 4000);
+         
     }
-
+    
 
     // inputOneValue.value = "";
     // inputTwoValue.value = "";
