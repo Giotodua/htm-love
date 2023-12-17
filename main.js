@@ -23,8 +23,8 @@ btnCalculateValue.addEventListener("click", () => {
     }
 
 
-    inputOneValue.value = "";
-    inputTwoValue.value = "";
+    // inputOneValue.value = "";
+    // inputTwoValue.value = "";
 })
 function clearInputs(){
     allInps.forEach(item => {item.value = "";})
