@@ -15,11 +15,10 @@ btnCalculateValue.addEventListener("click", () => {
          1);
          resultDiv.innerHTML = `<h1>${percentage}% <h1>`;
 
-        //  setTimeout(() =>{
-        //     resultDiv.innerHTML = "";
-
-        //  }, 4000);
-         clearInputs()
+         setTimeout(() =>{
+            resultDiv.innerHTML = "";
+            clearInputs()
+         }, 4000);
     }
 
 
