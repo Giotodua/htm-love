@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love</title>
+    <link rel="icone" href="" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content row">
+      <div class="title">
+        <h1>შეიყვანეთ თქვენი სახელები და ნახეთ, რამდენად გიყვართ ერთმანეთი</h1>
+      </div>
+      <div class="input-fields">
+        <div id="inputOne" class="inputOne">
+          <input
+            class="form-control"
+            type="text"
+            name="inputOne"
+            placeholder="შეიყვანეთ თქვენი სახელები"
+          />
+        </div>
+        <div class="input-heart"><i class="fa-solid fa-heart fa-6x"></i></div>
+        <div id="inputTwo" class="inputTwo">
+          <input
+            class="form-control"
+            type="text"
+            name="inputTwo"
+            id="inputTwo"
+            placeholder="შეიყვანეთ თქვენი სახელები"
+          />
+        </div>
+      </div>
+      <div class="result" id="result-div"></div>
+      <div class="button">
+        <button class="btn-calculate" id="btn-calculate">
+          გამოთვალეთ შედეგი
+        </button>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
